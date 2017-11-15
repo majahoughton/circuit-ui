@@ -21,3 +21,5 @@ export ValidatedTextarea from './src/Forms/ValidatedTextarea';
 
 export withStyles from './util/withStyles';
 export StyleProvider from './util/StyleProvider';
+
+export * from './src/Icons';
