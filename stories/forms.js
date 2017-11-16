@@ -56,7 +56,8 @@ storiesOf('Forms', module)
         <Form
           data={data}
           onChange={newData =>
-            onUpdate(prevData => onChangeForm(prevData, newData))}
+            onUpdate(prevData => onChangeForm(prevData, newData))
+          }
           onSubmit={action('onSubmit')}
         >
           <ValidatedInput name="name" id="name" field="name" label="My name" />
@@ -84,7 +85,8 @@ storiesOf('Forms', module)
       <Form
         data={data}
         onChange={newData =>
-          onUpdate(prevData => onChangeForm(prevData, newData))}
+          onUpdate(prevData => onChangeForm(prevData, newData))
+        }
         onSubmit={action('onSubmit')}
       >
         <ValidatedSelect field="name" label="Your name">
@@ -118,7 +120,8 @@ storiesOf('Forms', module)
       <Form
         data={data}
         onChange={newData =>
-          onUpdate(prevData => onChangeForm(prevData, newData))}
+          onUpdate(prevData => onChangeForm(prevData, newData))
+        }
         onSubmit={action('onSubmit')}
       >
         <InputGroup>
@@ -153,7 +156,8 @@ storiesOf('Forms', module)
       <Form
         data={data}
         onChange={newData =>
-          onUpdate(prevData => onChangeForm(prevData, newData))}
+          onUpdate(prevData => onChangeForm(prevData, newData))
+        }
         onSubmit={action('onSubmit')}
       >
         <ValidatedTextarea field="name" name="name" id="name" label="My name" />
@@ -178,7 +182,8 @@ storiesOf('Forms', module)
       <Form
         data={data}
         onChange={newData =>
-          onUpdate(prevData => onChangeForm(prevData, newData))}
+          onUpdate(prevData => onChangeForm(prevData, newData))
+        }
         onSubmit={noop}
       >
         <InputGroup>
