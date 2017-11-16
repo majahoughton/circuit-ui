@@ -4,6 +4,7 @@ export Headline from './src/Headline';
 export LoadingButton from './src/LoadingButton';
 export Button from './src/Button';
 export SumUpLogo from './src/SumUpLogo';
+export Price from './src/Price';
 
 export Card from './src/Card';
 export Input from './src/Forms/Input';
@@ -21,8 +22,9 @@ export ValidatedCheckbox from './src/Forms/ValidatedCheckbox';
 export ValidatedTextarea from './src/Forms/ValidatedTextarea';
 export FlashAlert from './src/FlashAlert';
 export Notification from './src/Notification';
+export * from './src/Icons';
 
 export withStyles from './util/withStyles';
 export StyleProvider from './util/StyleProvider';
-
-export * from './src/Icons';
+export * as numbers from './util/numbers';
+export * as currencies from './util/currency';
