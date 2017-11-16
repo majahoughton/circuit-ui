@@ -19,6 +19,7 @@ export ValidatedSelect from './src/Forms/ValidatedSelect';
 export ValidatedRadioButton from './src/Forms/ValidatedRadioButton';
 export ValidatedCheckbox from './src/Forms/ValidatedCheckbox';
 export ValidatedTextarea from './src/Forms/ValidatedTextarea';
+export FlashAlert from './src/FlashAlert';
 
 export withStyles from './util/withStyles';
 export StyleProvider from './util/StyleProvider';
