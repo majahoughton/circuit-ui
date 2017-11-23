@@ -23,6 +23,7 @@ export ValidatedTextarea from './src/Forms/ValidatedTextarea';
 export FlashAlert from './src/FlashAlert';
 export Notification from './src/Notification';
 export * from './src/Icons';
+export {SideNav, MenuItem} from './src/SideNav';
 
 export withStyles from './util/withStyles';
 export StyleProvider from './util/StyleProvider';
