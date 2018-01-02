@@ -3,7 +3,7 @@ module.exports = {
   rootDir: '.',
   roots: ['src', 'util'],
   moduleFileExtensions: ['js'],
-  collectCoverageFrom: [ '**/**/*.{js,jsx}', '!**/node_modules/**' ],
+  collectCoverageFrom: ['**/*.{js,jsx}', '!**/node_modules/**'],
   moduleDirectories: ['node_modules', 'src', 'util'],
   transform: {
     '^.+\\.js$': '<rootDir>/jest.transform.js',
@@ -11,5 +11,6 @@ module.exports = {
   },
   moduleNameMapper: {
     '\\.(css|scss)$': '<rootDir>/src/__mocks__/style-mock.js'
-  }
+  },
+  setupTestFrameworkScriptFile: '<rootDir>/jest.setup.js'
 };

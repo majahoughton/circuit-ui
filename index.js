@@ -5,7 +5,6 @@ export LoadingButton from './src/LoadingButton';
 export Button from './src/Button';
 export SumUpLogo from './src/SumUpLogo';
 export Price from './src/Price';
-
 export Card from './src/Card';
 export Input from './src/Forms/Input';
 export Select from './src/Forms/Select';
@@ -23,7 +22,7 @@ export ValidatedTextarea from './src/Forms/ValidatedTextarea';
 export FlashAlert from './src/FlashAlert';
 export Notification from './src/Notification';
 export * from './src/Icons';
-export {SideNav, MenuItem} from './src/SideNav';
+export { SideNav, MenuItem } from './src/SideNav';
 
 export withStyles from './util/withStyles';
 export StyleProvider from './util/StyleProvider';
