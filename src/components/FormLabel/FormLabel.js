@@ -18,6 +18,10 @@ const FormLabel = styled('label')(baseStyles);
 
 FormLabel.propTypes = {
   /**
+   * The identifier of the corresponding form element.
+   */
+  htmlFor: PropTypes.string.isRequired,
+  /**
    * A Circuit UI theme object. Usually provided by a ThemeProvider.
    */
   theme: PropTypes.object
